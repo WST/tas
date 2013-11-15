@@ -1,0 +1,7 @@
+0
+5
+00000	00FFB026	b	s	0	Slope gradient
+00001	00FFB010	w	s	0	X speed
+00002	00FFB012	w	s	0	Y speed
+00003	00FFB014	w	s	0	on-ground speed
+00004	00FFFE25	b	u	0	Timer frame
