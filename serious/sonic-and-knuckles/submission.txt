@@ -7,7 +7,7 @@ Here is the result of my attempt of improving Qwerty’s recent TAS.
 * Aims for in-game time instead of real-time
 * Heavy glitch abuse
 * Uses death to save time
-* Take damage to save time
+* Takes damage to save time
 * Ignores delays caused by bonus effects
 
 !! Comments
@@ -30,7 +30,7 @@ I began TASing this level, because I had a feeling that proper positionong can a
 
 ! Mushroom Hill 2
 
-Abusing the monitor between the acts to switch into running state, which I suggested in the submission’s discussion, was actually nearly useless. However, I managed to find improvements further. First, making a jump
+Abusing the monitor between the acts to switch into running state, which I suggested in the submission’s discussion, was actually nearly useless. However, I managed to find improvements further. First, making a jump at proper point allowed me not to bounce off the first enemy, and enter the zip point faster (an important part of this maneur was done by Aglar). Second, Aglar pointed out that the 32 pixel wall further may be skipped by proper alignment (the wall ejection speed itself would be not enough for this trick, but it becomes slightly higher because of the slopes there). These two maneurs saved about 2 seconds. Another second was saved in the very end of the act, right before the boss: taking the upper route is 47 frames faster than going like Qwerty did. This was found and performed by feeuzz.
 
 ! Sandopolis 2
 
