@@ -1,0 +1,45 @@
+Yay, my first submission!
+Here is the result of my attempt of improving Qwerty’s recent TAS.
+ 
+!! Game objectives
+
+* Emulator used: Gens 11b + camera hack + solidity viewer + hitbox display + Sonic TAS tools
+* Aims for in-game time instead of real-time
+* Heavy glitch abuse
+* Uses death to save time
+* Take damage to save time
+* Ignores delays caused by bonus effects
+
+!! Comments
+
+<Put here a longer explanation of your submission>
+
+||Level||In-game time||Old Qwerty’s time||Input authors||
+|Mushroom Hill 1|0:47.24|0:50.06|WST|
+|Mushroom Hill 2|0:48.09|0:51.17|feeuzz, WST and Aglar|
+|Flying Battery 1|0:37.55|0:38.13|WST|
+|Flying Battery 2|1:09.22|1:10.13|WST and feeuzz|
+|Sandopolis 1|1:10.06|1:11.11|WST and marzojr|
+|Sandopolis 2|xxx|1:34.12|WST|
+
+!! Stage by stage comments
+
+! Mushroom Hill 1
+
+I began TASing this level, because I had a feeling that proper positionong can allow making a better out-loop jump and save some frames. I was right: it saved about 10 frames. This inspired me to turn my WIP into a serious project. I managed to save about one second by pure optimization when I came to the point where I changed the route. The route change helped to advance the improvement. The final time is 3 in-game seconds faster than in Qwerty’s TAS.
+
+! Mushroom Hill 2
+
+Abusing the monitor between the acts to switch into running state, which I suggested in the submission’s discussion, was actually nearly useless. However, I managed to find improvements further. First, making a jump
+
+! Sandopolis 2
+
+The door switches in this level are a bit cunning: depending on your Y-subpixel position, you may loose 1 frame on them, because you will need 1 frame longer jump to reach their top. Jumping off the slope in the very beginning can be done from 2 different points. First of them gives you shorter trajectory, the second results in a better speed. However, in both cases you come to the switch at exactly the same moment, so I jumped from the second point just in order to manipulate my Y subpixel position (which is important for the switch, as I explained before).
+
+<And so on>
+
+!! Other comments
+
+<Explain here things the audience would probably like to see>
+<Explain also things that could be improved in your movie>   
+<You may also suggest screenshots.>
