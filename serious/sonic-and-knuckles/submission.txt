@@ -1,5 +1,5 @@
-Yay, my first submission!
-Here is the result of my attempt of improving Qwerty’s recent TAS.
+Yay, our first submission!
+Here is the result of our cooperative attempt of improving Qwerty’s recent TAS.
  
 !! Game objectives
 
@@ -22,7 +22,7 @@ Here is the result of my attempt of improving Qwerty’s recent TAS.
 |Sandopolis 1|1:10.06|1:11.11|WST and marzojr|
 |Sandopolis 2|xxx|1:34.12|WST|
 
-!! Stage by stage comments
+!! Stage by stage comments by WST
 
 ! Mushroom Hill 1
 
@@ -32,7 +32,28 @@ I began TASing this level, because I had a feeling that proper positionong can a
 
 Abusing the monitor between the acts to switch into running state, which I suggested in the submission’s discussion, was actually nearly useless. However, I managed to find improvements further. First, making a jump at proper point allowed me not to bounce off the first enemy, and enter the zip point faster (an important part of this maneur was done by Aglar). Second, Aglar pointed out that the 32 pixel wall further may be skipped by proper alignment (the wall ejection speed itself would be not enough for this trick, but it becomes slightly higher because of the slopes there). These two maneurs saved about 2 seconds. Another second was saved in the very end of the act, right before the boss: taking the upper route is 47 frames faster than going like Qwerty did. This was found and performed by feeuzz.
 
+! Flying Battery 1
+
+The almost-instant zip in this run was found by DMTM. DMTM recorded a gmv for me, but he used Sonic 3 and Knuckles ROM. I asked him if he was sure that the input would sync on pure Sonic and Knuckles, and he said this: «And it will work 100% on Sonic & Knuckles.bin».
+I was unable to setup the zip faster, but it does not really mean that the zip cannot be set up faster — it only means that I did not try it hard enough. However, I was able to improve DMTM’s time (which was already better than Qwerty’s) later, during the level. It was enough to make the result one in-game second faster.
+
+! Flying Battery 2
+
+I got 2 gmv files for this level before I started to TAS it: Qwerty’s one and DMTM’s one. The funny fact about them is that in Qwerty’s run the horizontal underflow happened earlier than in DMTM’s; while DMTM’s run itself was faster. I did not notice the reason at first, and instead, started to TAS it myself. I was right: I came to the point of horizontal underflow 32 frames faster than DMTM (quite a much for such a short level). Then I finally realized the main difference between DMTM’s and Qwerty’s runs: DMTM found a way to give the boss an extra hit before it goes below the ground. The method is pretty simple: jumping from spindashing state makes Knuckles’s hitbox higher just enough to be able to make the first hit earlier enough to be able to make the second hit before the boss becomes unreachable. However, the final time was still slower than expected (remember that I mentioned I was 32 frames ahead?). Despite all my attempts to investagate into the issue, I was unable to find the reason. However, my further attempts on improving the time made me sure that the reason is actually the difference between the games (S3&K and pure S&K). Anyway, the result is 1 in-game second faster than in Qwerty’s run, which is good enough.
+
+! Sandopolis 1
+
+All the improvement comes from a faster route to the point of the zip, allowing to perform horizontal underflow more than a second faster. This trick was shown to me by marzojr, who knew it from HDL (who also isn’t the trick’s inventor).
+
 ! Sandopolis 2
+
+! Lava reef 1
+
+! Lava reef 2
+
+! Hidden Palace
+
+! Sky Sanctuary
 
 The door switches in this level are a bit cunning: depending on your Y-subpixel position, you may loose 1 frame on them, because you will need 1 frame longer jump to reach their top. Jumping off the slope in the very beginning can be done from 2 different points. First of them gives you shorter trajectory, the second results in a better speed. However, in both cases you come to the switch at exactly the same moment, so I jumped from the second point just in order to manipulate my Y subpixel position (which is important for the switch, as I explained before).
 
@@ -42,4 +63,12 @@ The door switches in this level are a bit cunning: depending on your Y-subpixel 
 
 <Explain here things the audience would probably like to see>
 <Explain also things that could be improved in your movie>   
-<You may also suggest screenshots.>
+
+Suggested screenshot: frame 26402 or 15580 (my favorite)
+
+!! Thanks to
+
+Aglar and marzojr for expert consultation
+Qwerty for making the previous TAS
+DMTM and S3Kglitches for glitch discoveries
+LTRP and Joseph for the support
