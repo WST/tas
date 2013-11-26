@@ -19,8 +19,12 @@ Here is the result of our cooperative attempt of improving Qwerty’s recent TAS
 |Mushroom Hill 2|0:48.09|0:51.17|feeuzz, WST and Aglar|
 |Flying Battery 1|0:37.55|0:38.13|WST|
 |Flying Battery 2|1:09.22|1:10.13|WST and feeuzz|
-|Sandopolis 1|1:10.06|1:11.11|WST and marzojr|
+|Sandopolis 1|1:10.07|1:11.11|WST and marzojr|
 |Sandopolis 2|xxx|1:34.12|WST|
+|Lava Reef 1|xxx|0:44.37|WST|
+|Lava Reef 2|xxx|0:21.44|WST|
+|Hidden Palace|0:08.03|0:08.11|feeuzz|
+|Sky Sanctuary|xxx|0:57.08|feeuzz|
 
 !! Stage by stage comments by WST
 
@@ -35,7 +39,7 @@ Abusing the monitor between the acts to switch into running state, which I sugge
 ! Flying Battery 1
 
 The almost-instant zip in this run was found by DMTM. DMTM recorded a gmv for me, but he used Sonic 3 and Knuckles ROM. I asked him if he was sure that the input would sync on pure Sonic and Knuckles, and he said this: «And it will work 100% on Sonic & Knuckles.bin».
-I was unable to setup the zip faster, but it does not really mean that the zip cannot be set up faster — it only means that I did not try it hard enough. However, I was able to improve DMTM’s time (which was already better than Qwerty’s) later, during the level. It was enough to make the result one in-game second faster.
+I was unable to setup the zip faster, but it does not really mean that the zip cannot be set up faster — it only means that I did not try it hard enough. However, I was able to improve DMTM’s time (which was already better than Qwerty’s) later, during the level. It was enough to make the result one in-game second faster. The gravity glitch in the end was abused to die faster, which is important for TASing the next act.
 
 ! Flying Battery 2
 
@@ -47,6 +51,8 @@ All the improvement comes from a faster route to the point of the zip, allowing 
 
 ! Sandopolis 2
 
+The door switches in this level are a bit cunning: depending on your Y-subpixel position, you may loose 1 frame on them, because you will need 1 frame longer jump to reach their top. Jumping off the slope in the very beginning can be done from 2 different points. First of them gives you shorter trajectory, the second results in a better speed. However, in both cases you come to the switch at exactly the same moment, so I jumped from the second point just in order to manipulate my Y subpixel position (which is important for the switch, as I explained before).
+
 ! Lava reef 1
 
 ! Lava reef 2
@@ -55,8 +61,6 @@ All the improvement comes from a faster route to the point of the zip, allowing 
 
 ! Sky Sanctuary
 
-The door switches in this level are a bit cunning: depending on your Y-subpixel position, you may loose 1 frame on them, because you will need 1 frame longer jump to reach their top. Jumping off the slope in the very beginning can be done from 2 different points. First of them gives you shorter trajectory, the second results in a better speed. However, in both cases you come to the switch at exactly the same moment, so I jumped from the second point just in order to manipulate my Y subpixel position (which is important for the switch, as I explained before).
-
 <And so on>
 
 !! Other comments
@@ -64,7 +68,7 @@ The door switches in this level are a bit cunning: depending on your Y-subpixel 
 <Explain here things the audience would probably like to see>
 <Explain also things that could be improved in your movie>   
 
-Suggested screenshot: frame 26402 or 15580 (my favorite)
+Suggested screenshot: frame 15580
 
 !! Thanks to
 
@@ -72,3 +76,4 @@ Aglar and marzojr for expert consultation
 Qwerty for making the previous TAS
 DMTM and S3Kglitches for glitch discoveries
 LTRP and Joseph for the support
+TheYogWog for his amazing ring attacks
