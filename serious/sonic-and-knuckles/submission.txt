@@ -1,5 +1,4 @@
-Yay, our first submission!
-Here is the result of our cooperative attempt of improving Qwerty’s recent TAS.
+Yay, our first submission! Here is the result of our cooperative attempt of improving Qwerty’s recent TAS.
  
 !! Game objectives
 
@@ -18,7 +17,7 @@ Here is the result of our cooperative attempt of improving Qwerty’s recent TAS
 |Flying Battery 1|0:37.55|0:38.13|18 (0:00.18)|WST|
 |Flying Battery 2|1:09.22|1:10.13|51 (0:00.51)|WST and feeuzz|
 |Sandopolis 1|1:10.07|1:11.11|64 (0:01.04)|WST|
-|Sandopolis 2|1:17.19|1:34.12|1013 (0:16.53)|WST|
+|Sandopolis 2|1:16.27|1:34.12|1065 (0:17.45)|WST|
 |Lava Reef 1|xxx|0:44.37|?|WST|
 |Lava Reef 2|xxx|0:21.44|?|WST|
 |Hidden Palace|0:08.04|0:08.12|8 (0:00.08)|feeuzz|
@@ -55,21 +54,29 @@ I got 2 gmv files for this level before I started to TAS it: Qwerty’s one and 
 
 All the improvement comes from a faster route to the point of the zip, allowing to perform horizontal underflow more than a second faster. This trick was shown to me by marzojr, who knew it from HDL (who also isn’t the trick’s inventor).
 
-After the first act, I had to waste at least 244 frames for luck-manipulating the cylinder in the very beginning of the second act; there was no other way to get it out of my way.
+After the first act, I had to waste at least 244 frames for luck-manipulating the cylinder in the very beginning of the second act; there was no other way to get it out of my way. This could be avoided by saving some frames in earlier levels — just FYI.
 
 ! Sandopolis 2
 
 The door switches in this level are a bit cunning: depending on your Y-subpixel position, you may loose 1 frame on them, because you will need 1 frame longer jump to reach their top. Jumping off the slope in the very beginning can be done from 2 different points. First of them gives you shorter trajectory, the second results in a better speed. However, in both cases you come to the switch at exactly the same moment, so I jumped from the second point just in order to manipulate my Y subpixel position (which is important for the switch, as I explained before).
 
+But just like in most of the other levels, the main part of improvement came from major route changes. I took a route more similar to the route used in the currently published Tails run. It’s not the first time I TAS this level, though — I made a just-for-fun [http://www.youtube.com/watch?v=qWhUdfAAiR0|Amy TAS of it], which is also very fast, despite being just-for-fun and hence easilly improveable.
+
 ! Lava reef 1
 
+TOTAS / TOEXPLAIN
+
 ! Lava reef 2
+
+This was certainly the hardest of all levels
 
 ! Hidden Palace
 
 Nothing special but holding L+R in the beginning of the level.
 
 ! Sky Sanctuary
+
+TOTAS / TOEXPLAIN
 
 
 !! Other comments
@@ -87,16 +94,35 @@ A: Our goal was to make a submission, which could obsolete Qwerty’s TAS, as so
 
 Q: Is it really well optimized? When I was watching Qwerty’s run, I was deeply impressed and couldn’t even imagine that it can be improved that much
 
-A: Well, Sonic the Hedgehog is not Super Mario Bros. The speed here is variable; you don’t have the handy «N-frame rule», which can «eat» your small mistakes; and the levels here have extremely complex layouts (exceptions are rare). If you look at the history of any Sonic TAS, you will notice that improvements of previous TASes of these games almost every time were very big. Obviously, it does not make *any* sense to classify Sonic TASes as «suboptimal» and «optimal» ones — it is not that kind of a game. Complexity of the game’s physics make the result dependant on consumed time, TASer’s experience and many other things. So, we am absolutely not sure that our run cannot be improved a lot as well. We were simply solving our task — proving Qwerty that next time he should consider TASing in a team.
+A: Well, Sonic the Hedgehog is not Super Mario Bros. The speed here is variable; you don’t have the handy «N-frame rule», which can «eat» your small mistakes; and the levels here have extremely complex layouts (exceptions are rare). If you look at the history of any Sonic TAS, you will notice that improvements of previous TASes of these games almost every time were very big. Obviously, it does not make *any* sense to classify Sonic TASes as «suboptimal» and «optimal» ones — it is not that kind of a game. Complexity of the game’s physics make the result dependant on consumed time, TASer’s experience and many other things. So, we are absolutely not sure that our run cannot be improved a lot as well. We were simply solving our task — proving Qwerty that next time he should consider TASing in a team.
+
+Q: I want to improve your run. Can you guys give me some ideas?
+
+A: deeper optimization may help to save frames in most of the levels; also we made almost no efforts to optimize non in-game time. There are also 2 levels in which the actual result is 1 frame worse than the expected (predicted) result, they are Sandopolis 1 and Flying Battery 2. The spindash before the high jump in Mushroom Hill 2 was useless — there was no significant difference in speed if I didn’t spindash (thanks to speed shoes). We are also still not sure that our routes are the best — Knuckles certainly needs deeper research. Finally, we may know a big shortcut in Sandopolis 2, but we are not sure (WST succeeded to perform it only once, and the gmv is lost).
+
+Q: Where are the feeuzz’s comments?
+
+A: Sadly, he wouldn’t like to write anything about the job he did.
+
+Q: Is the number of rerecords true?
+
+A: Yes, it should be close to.
 
 Q: WST, aren’t you an Amy TASer? How are you Amy WIPs?
 
-A: They are fine, but this stuff was more important, say hello to Qwerty
+A: They are fine, but this stuff was more important, say hello to Qwerty.
 
 !! Thanks to
 
-Aglar and marzojr for expert consultation
-Qwerty for making the previous TAS
-DMTM and S3Kglitches for glitch discoveries
-LTRP and Joseph for the support
-TheYogWog for his amazing ring attacks
+* Aglar and marzojr for expert consultation
+* Qwerty for making the previous TAS
+* DMTM and S3Kglitches for glitch discoveries; DMTM also for video encode
+* LTRP and Joseph for the support
+* TheYogWog for his amazing ring attacks
+* AnS for patient waiting for our first submission for months
+* Apple Bloom for her existence :3
+
+!! Apologies for
+
+* Our English
+* Not TASing Sonic 3 and Knuckles
