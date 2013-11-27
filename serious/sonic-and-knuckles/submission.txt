@@ -71,9 +71,6 @@ Nothing special but holding L+R in the beginning of the level.
 
 ! Sky Sanctuary
 
-No savings here. We just reTASed the level to not include Qwerty’s input.
-
-<And so on>
 
 !! Other comments
 
