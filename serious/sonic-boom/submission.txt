@@ -7,6 +7,7 @@ Actually, this TAS may slightly disappoint you. The stages are actually extremel
 * Emulator used: Gens 11b + camera hack + solidity viewer + hitbox display + [http://tasvideos.org/forum/viewtopic.php?t=8827|Sonic TAS tools]
 * Aims for in-game time instead of real-time
 * Heavy glitch abuse
+* Slight luck manipulation
 
 !! Results
 
@@ -40,21 +41,25 @@ Nothing special but escaping from the Power Plant explosion initiated by that ov
 !! Stage by stage comments by got4n
 
 ! Power Plant 1
-
-TODO
-
+yay, I made a first TAS of the level 1-1. It was pretty good overall but WST did a much better technic, and finally it decided to be the same time. We kept WST technic, because it was pretty good, and TAS-only
+I made the boss but there is slight luck manipulation for getting the shortest boss recovery frames. 
 ! Power Plant 2
 
-TODO
+Okay, that one was the REAL pain. I asked many TASers if they could help us reproducing the emu2000 route, because it was the best one, but no one could, even MarzoJr :/ .
+But, recently, WST told me he did find his route randomly. It was pretty cool, sadly, we couldn't level-wrap.
 
 ! Power Plant 3
 
-TODO
+First, I think that it was very easy, but that level is pretty hard to TAS.
+
+! Overall (Got4n) 
+waw, the game is fucking hard to TAS because mostly everything is perfect!
 
 !! Other comments
 
-Suggested screenshot: frame 328 or 3906
+Suggested screenshot: frame 328 or 3906 or 333
 
+[http://image.noelshack.com/fichiers/2013/51/1387575305-sonic-boom-submission-1-frame333.png]
 [http://averkov.web.id/images/for-tasvideos/sonic-boom-submission-1.png] [http://averkov.web.id/images/for-tasvideos/sonic-boom-submission-2.png]
 
 !! Thanks to
