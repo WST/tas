@@ -1,6 +1,6 @@
 Hi, guys! Here is the result of our cooperative attempt of improving [url=]emu2000’s old unsubmitted TAS[/url] of Sonic Boom. Sonic Boom is a brilliant Sonic the Hedgehog 2 hack, featuring a huge set of new moves, greater speeds and completely different tasks to solve. Whoever made this hack, is a genius.
 
-Actually, this TAS may slightly disappoint you. The stages are actually extremely long and complex, but they are pwned to the level when most time you are just watching the camera scrolling directly to the boss at maximum speed. But if you enjoy speed, this is certainly for you :)
+Actually, this TAS may slightly disappoint you. The stages are actually extremely long and complex, but they are pwned to the level when most time you are just watching the camera scrolling directly to the boss at maximum speed. If you would like to see a low glitch run of this hack, we advice you watching DDRkhat’s TAS.
 
 !! Game objectives
 
@@ -23,6 +23,8 @@ got4n made a TAS of this level and sent it to me. In my attempts to improve it I
 
 However, faster horizontal underflow did not actually result in any improvement. Since the boss fight is triggered on certain camera position, performing the spin dash a few frames later (in my case) results in the camera stucking for a moment, thus, both methods of the level-wrap result in giving the boss the first hit at exactly the same frame. Finally we decided to choose my method of level-wrap, because it is technically a lot harder to pull off (trying to make it without looking at our input or knowing what you are doing is wasting time, beleive me).
 
+The boss fight was completely done by got4n.
+
 ! Power Plant 2
 
 This stage was pure pain at first, because we couldn’t figure out emu2000’s route. However, playing this level just for fun many times suddenly resulted in discovering his route, which allowed us to switch to TASing it seriously.
@@ -33,7 +35,7 @@ The orbinaut in the end of the stage is so freaking big that it’s even not fun
 
 ! Power Plant 3
 
-Escaping from the exploding Power Plant at supersonic speed, nothing special here.
+Nothing special but escaping from the Power Plant explosion initiated by that oversized orbinaut
 
 !! Stage by stage comments by got4n
 
