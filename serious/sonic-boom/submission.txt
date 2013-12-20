@@ -1,0 +1,60 @@
+Hi, guys! Here is the result of our cooperative attempt of improving [url=]emu2000’s old unsubmitted TAS[/url] of Sonic Boom. Sonic Boom is a brilliant Sonic the Hedgehog 2 hack, featuring a huge set of new moves, greater speeds and completely different tasks to solve. Whoever made this hack, is a genius.
+
+Actually, this TAS may slightly disappoint you. The stages are actually extremely long and complex, but they are pwned to the level when most time you are just watching the camera scrolling directly to the boss at maximum speed. But if you enjoy speed, this is certainly for you :)
+
+!! Game objectives
+
+* Emulator used: Gens 11b + camera hack + solidity viewer + hitbox display + [http://tasvideos.org/forum/viewtopic.php?t=8827|Sonic TAS tools]
+* Aims for in-game time instead of real-time
+* Heavy glitch abuse
+
+!! Results
+
+||Level||In-game time||TASed by||
+|Power Plant 1|0:32.17|WST and got4n|
+|Power Plant 2|0:47.15|WST|
+|Power Plant 3|soon|soon|
+
+!! Stage by stage comments by WST
+
+! Power Plant 1
+
+got4n made a TAS of this level and sent it to me. In my attempts to improve it I’ve found out a faster way to cause the horizontal underflow. got4n spindashed to the right, entered the wall and zipped left. I performed X-subpixel management and spindashed to the left without entering the wall, thus causing horizontal underflow 4 frames faster. In fact, [b]on 19th frame of the in-game time Sonic is already waiting in the boss room[/b].
+
+However, faster horizontal underflow did not actually result in any improvement. Since the boss fight is triggered on certain camera position, performing the spin dash a few frames later (in my case) results in the camera stucking for a moment, thus, both methods of the level-wrap result in giving the boss the first hit at exactly the same frame. Finally we decided to choose my method of level-wrap, because it is technically a lot harder to pull off (trying to make it without looking at our input or knowing what you are doing is wasting time, beleive me).
+
+! Power Plant 2
+
+This stage was pure pain at first, because we couldn’t figure out emu2000’s route. However, playing this level just for fun many times suddenly resulted in discovering his route, which allowed us to switch to TASing it seriously.
+
+It’s worth to mention that this level cannot be level-wrapped. There is some X space reserved for Sonic’s running-in animation, which makes it impossible to cause horizontal underflow.
+
+The orbinaut in the end of the stage is so freaking big that it’s even not funny. Don’t you agree?
+
+! Power Plant 3
+
+Escaping from the exploding Power Plant at supersonic speed, nothing special here.
+
+!! Stage by stage comments by got4n
+
+! Power Plant 1
+
+TODO
+
+! Power Plant 2
+
+TODO
+
+! Power Plant 3
+
+TODO
+
+!! Other comments
+
+Suggested screenshot: frame 328 or 3906
+
+[http://averkov.web.id/images/for-tasvideos/sonic-boom-submission-1.png] [http://averkov.web.id/images/for-tasvideos/sonic-boom-submission-2.png]
+
+!! Thanks to
+
+* emu2000 for his first TAS
