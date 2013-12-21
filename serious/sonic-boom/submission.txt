@@ -7,6 +7,7 @@ Actually, this TAS may slightly disappoint you. The stages are actually extremel
 * Emulator used: Gens 11b + camera hack + solidity viewer + hitbox display + [http://tasvideos.org/forum/viewtopic.php?t=8827|Sonic TAS tools]
 * Aims for in-game time instead of real-time
 * Heavy glitch abuse
+* Slight luck manipulation
 
 !! Results
 
@@ -35,26 +36,38 @@ The orbinaut in the end of the stage is so freaking big that it’s even not fun
 
 ! Power Plant 3
 
-Nothing special but escaping from the Power Plant explosion initiated by that oversized orbinaut
+At first I expected this level to be easy. I was planning to take a boost in the very beginning, outrun the screen and just run to the end at maximum speed. But soon I’ve realized that it’s not actually as easy as it sounds. First, while running too fast, I’ve noticed that soon I reach a point where the terrain is not loaded yet. Despite being quite experienced Sonic TASer, I have to say that I never saw a thing like that. This is not the same thing as the one listed [url=http://tasvideos.org/GameResources/Genesis/SonicTheHedgehog.html#LevelWrappingGlitch]here[/url]: when you come to the mentioned point and wait, you can notice that your massively high X coordinate becomes very low in a moment. This means that the terrain in this level is formed dynamically as you run forward, which kinda explains how the hell this level is so long horizontally.
+
+As I understand it now, the idea about TASing this level is to run ahead of the screen, but not too fast. Also you have to avoid spin dashes when being on screen, as they affect the camera’s normal move. Rolling helps very much in this level, as it helps keeping the horizontal speed equaling camera’s speed, while accumulating the on-ground speed, which can be easilly released at proper moment.
+
+To control the camera’s position easier, I wrote a simple Lua script:
+
+During TASing this act, got4n constantly urged me, but I simply couldn’t make it quickly because of many things that were completely new to me in this act. In addition to the problems mentioned above, the speed of the fire in this act seems to be relavant to Sonic’s speed, and if you run too fast for a long time (for example, by taking a boost from wall ejection), fire accelerates too, and can kill you when you are waiting for the next dynamic block to be loaded, making it impossible to progress.
+
+
 
 !! Stage by stage comments by got4n
 
 ! Power Plant 1
-
-TODO
-
+yay, I made a first TAS of the level 1-1. It was pretty good overall but WST did a much better technic, and finally it decided to be the same time. We kept WST technic, because it was pretty good, and TAS-only
+I made the boss but there is slight luck manipulation for getting the shortest boss recovery frames. 
 ! Power Plant 2
 
-TODO
+Okay, that one was the REAL pain. I asked many TASers if they could help us reproducing the emu2000 route, because it was the best one, but no one could, even MarzoJr :/ .
+But, recently, WST told me he did find his route randomly. It was pretty cool, sadly, we couldn't level-wrap.
 
 ! Power Plant 3
 
-TODO
+First, I think that it was very easy, but that level is pretty hard to TAS.
+
+! Overall (Got4n) 
+waw, the game is fucking hard to TAS because mostly everything is perfect!
 
 !! Other comments
 
-Suggested screenshot: frame 328 or 3906
+Suggested screenshot: frame 328 or 3906 or 333
 
+[http://image.noelshack.com/fichiers/2013/51/1387575305-sonic-boom-submission-1-frame333.png]
 [http://averkov.web.id/images/for-tasvideos/sonic-boom-submission-1.png] [http://averkov.web.id/images/for-tasvideos/sonic-boom-submission-2.png]
 
 !! Thanks to
