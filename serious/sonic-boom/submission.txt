@@ -44,8 +44,6 @@ To control the camera’s position easier, I wrote a simple Lua script:
 
 During TASing this act, got4n constantly urged me, but I simply couldn’t make it quickly because of many things that were completely new to me in this act. In addition to the problems mentioned above, the speed of the fire in this act seems to be relavant to Sonic’s speed, and if you run too fast for a long time (for example, by taking a boost from wall ejection), fire accelerates too, and can kill you when you are waiting for the next dynamic block to be loaded, making it impossible to progress.
 
-
-
 !! Stage by stage comments by got4n
 
 ! Power Plant 1
