@@ -1,6 +1,6 @@
-Hi, guys! Here is the result of our cooperative attempt of improving [url=]emu2000’s old unsubmitted TAS[/url] of Sonic Boom. Sonic Boom is a brilliant Sonic the Hedgehog 2 hack, featuring a huge set of new moves, greater speeds and completely different tasks to solve. Whoever made this hack, is a genius.
+Hi, guys! Here is the result of our cooperative attempt of improving [http://www.youtube.com/watch?v=Pm-dRfbj184|emu2000’s old unsubmitted TAS] of Sonic Boom. Sonic Boom is a brilliant Sonic the Hedgehog 2 hack, featuring a huge set of new moves, greater speeds and completely different tasks to solve. Whoever made this hack, is a genius.
 
-Actually, this TAS may slightly disappoint you. The stages are actually extremely long and complex, but they are pwned to the level when most time you are just watching the camera scrolling directly to the boss at maximum speed. If you would like to see a low glitch run of this hack, we advice you watching DDRkhat’s TAS.
+Actually, this TAS may slightly disappoint you. The stages are actually extremely long and complex, but they are pwned to the level when most time you are just watching the camera scrolling directly to the boss at maximum speed. If you would like to see a low glitch run of this hack, we advice you watching [http://tasvideos.org/forum/viewtopic.php?t=10118|DDRkhat’s TAS].
 
 !! Game objectives
 
@@ -13,8 +13,8 @@ Actually, this TAS may slightly disappoint you. The stages are actually extremel
 
 ||Level||In-game time||TASed by||
 |Power Plant 1|0:32.17|WST and got4n|
-|Power Plant 2|0:47.15|WST|
-|Power Plant 3|soon|soon|
+|Power Plant 2|0:46.59|WST|
+|Power Plant 3|1:07.31|WST|
 
 !! Stage by stage comments by WST
 
