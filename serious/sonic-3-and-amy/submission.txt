@@ -1,10 +1,12 @@
-Howdy, friends! Have you ever asked yourselves how would a TAS of S3&K look if Sonic was a girl? I doubt. Well, now you probably want to know the answer. And, as you could easilly guess, this run is an answer to your question.
+Howdy, friends! I’m WST and I present you my new TAS. Have you ever asked yourselves how would a TAS of S3&K look if Sonic was a girl? I doubt. Well, now you probably want to know the answer. And, as you could easilly guess, this run is an answer to your question.
 
 The project started back in 2012. The exact date is June, 24. At that time I didn’t have enough knowledge to finish such a run, but doing short parts helped me to addict to the game’s physics better. However, it wasn’t my first project with Amy — in fact, I was an Amy TASer from the very beginning — from the very [http://www.youtube.com/watch?v=Zo6gTOA9jWs&list=UUaQ0bqB_HdndY7k7dJv8Mag|first TAS] I made in my life. That particular TAS of Amy in Sonic the Hedgehog was inspired by Crramalama. Thus, Crramalama is my predcessor, and it is correct to say that in the world of TAS I am Crramalama v2.0. :)
 
-As you, guys, know, unofficial games are not very welcome on this site unless they introduce something brand new to the gameplay process. Does this one really introduce completely new feel? I beleive, it does. Amy’s abilities differ very much from the abilities of Sonic, Knuckles or Tails. I wouldn’t like to explain her moveset right here, because it’s already explained on [http://info.sonicretro.org/Sonic_3_and_Amy_Rose|Sonic Retro].
+As you, guys, know, unofficial games are not very welcome on this site unless they introduce something brand new to the gameplay process. Does this one really introduce completely new feel? I beleive, it does. Amy’s abilities differ very much from the abilities of Sonic, Knuckles or Tails. I wouldn’t like to explain her moveset right here, because it’s already explained on [http://info.sonicretro.org/Sonic_3_and_Amy_Rose|Sonic Retro]. The run is using version 1.4 of the hack.
 
 Because this project was very important for me as a salvation from depression, I asked a freelance artist to draw an illustration for this submission message. However, since this run was planned to be submitted at the same moment with marzojr’s [http://tasvideos.org/forum/viewtopic.php?t=16145|twin] [http://tasvideos.org/forum/viewtopic.php?t=16146|runs], I have to submit it earlier than the illustration is done; but I’ll add it here later.
+
+During working on this project, marzojr also joined the WIP, his comments are below.
 
 !! Game objectives
 
@@ -141,10 +143,10 @@ I’m leaving them all for v2.0 of this TAS (of for the next person who will wor
 !! Comments from marzojr
 
 ! Death Egg 1
-Up to the first conveyor belt, it is all WST's input; he had used the bottom route from there, up to a zip at the same place Hyper Sonic zips in the newgame+ run. He had a very nice zip setup that had Amy enter the engine room at zip speeds, so she would accelerate there and just fall through the offscreen door (and breaking the horizontal speed record in the classic Sonic games). I had to come in and ruin his fun, saving almost 9 seconds in the process. Red Eye is a pain to fight as Amy -- when using the hammer, her hitbox is the same size as Sonic's when using insta-shield, but she does not get his invincibility; so dodging those spikes becomes near impossible after a point.
+Up to the first conveyor belt, it is all WST’s input; he had used the bottom route from there, up to a zip at the same place Hyper Sonic zips in the newgame+ run. He had a very nice zip setup that had Amy enter the engine room at zip speeds, so she would accelerate there and just fall through the offscreen door (and breaking the horizontal speed record in the classic Sonic games). I had to come in and ruin his fun, saving almost 9 seconds in the process. Red Eye is a pain to fight as Amy — when using the hammer, her hitbox is the same size as Sonic's when using insta-shield, but she does not get his invincibility; so dodging those spikes becomes near impossible after a point.
 
 ! Death Egg 2
-Death needed to allow level wrap; new level wrap setup by WST. Death Ball is annoying with Amy as she can't spindash into them at the ceiling to make them hit the boss. She can use the hammer, but they don't fly high (low?) enough and she takes a hit too.
+Death needed to allow level wrap; new level wrap setup by WST. Death Ball is annoying with Amy as she can’t spindash into them at the ceiling to make them hit the boss. She can use the hammer, but they don’t fly high (low?) enough and she takes a hit too.
 
 !! Other comments
 
