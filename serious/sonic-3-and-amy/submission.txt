@@ -42,7 +42,7 @@ Because this project was very important for me as a salvation from depression, I
 |Hidden Palace|0:24.37|
 |Sky Sanctuary|1:49.32|
 |Death Egg 1|0:55.27|
-|Death Egg 2||
+|Death Egg 2|1:42.04|
 
 !! Some words about the character
 
@@ -116,21 +116,17 @@ This level was pure pain to beat — I couldn’t find any level-wrap despite mu
 ! Sandopolis 2
 Inability to underflow the first act brought Amy’s rage to absurd degree resulting in total pwnage of the level.
 
-Lava Reef 1
+! Lava Reef 1
 Amy is still mad and keeps taking huge shortcuts and breaking the game. Thanks to marzojr for explaining how not to get damage from the drill bot.
 
-Lava Reef 2
+! Lava Reef 2
 It’s a pity, but Amy cannot take the same shortcut that all the other characters do — as she can’t roll. So, I had to find some shortcuts. The first one is taken at frame 77554, where I used stair clip to enter the terrain. It can be tricky to avoid getting killed here, but it’s all about Y subpixel management. The second shortcut is taken at frame 77789 — the terrain is entered. The third time it happened at frame 78277 — stair clip was used. Then again, at 78441, I enter the floor using spindash-through-object trick. The last two applications of stair clip happen at frames 78772 and 79023. Wow, that was a lot of travelling inside the walls!
 
-Hidden Palace
+! Hidden Palace
 Extra boost trick is used a couple of times. With the excaption of that, the level is beaten in normal way.
 
-Sky Sanctuary
+! Sky Sanctuary
 As marzojr said, he couldn’t find any shortcuts in this level suitable for Amy, thus, the level is beaten in normal way.
-
-Death Egg 1
-
-Death Egg 2
 
 !! Possible improvements
 * It may be possible to not need a spin dash at frame 15909 and keep the horizontal speed enough for the stair clip
@@ -142,8 +138,13 @@ Death Egg 2
 
 I’m leaving them all for v2.0 of this TAS (of for the next person who will work on it), and not complaining much about them, because I’m happy and proud about the amount of work I already did. It’s not only a TAS, but also a lot of research work.
 
-
 !! Comments from marzojr
+
+! Death Egg 1
+Up to the first conveyor belt, it is all WST's input; he had used the bottom route from there, up to a zip at the same place Hyper Sonic zips in the newgame+ run. He had a very nice zip setup that had Amy enter the engine room at zip speeds, so she would accelerate there and just fall through the offscreen door (and breaking the horizontal speed record in the classic Sonic games). I had to come in and ruin his fun, saving almost 9 seconds in the process. Red Eye is a pain to fight as Amy -- when using the hammer, her hitbox is the same size as Sonic's when using insta-shield, but she does not get his invincibility; so dodging those spikes becomes near impossible after a point.
+
+! Death Egg 2
+Death needed to allow level wrap; new level wrap setup by WST. Death Ball is annoying with Amy as she can't spindash into them at the ceiling to make them hit the boss. She can use the hammer, but they don't fly high (low?) enough and she takes a hit too.
 
 !! Other comments
 
