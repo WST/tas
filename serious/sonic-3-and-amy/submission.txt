@@ -1,0 +1,166 @@
+Howdy, friends! Have you ever asked yourselves how would a TAS of S3&K look if Sonic was a girl? I doubt. Well, now you probably want to know the answer. And, as you could easilly guess, this run is an answer to your question.
+
+The project started back in 2012. The exact date is June, 24. At that time I didn’t have enough knowledge to finish such a run, but doing short parts helped me to addict to the game’s physics better. However, it wasn’t my first project with Amy — in fact, I was an Amy TASer from the very beginning — from the very [http://www.youtube.com/watch?v=Zo6gTOA9jWs&list=UUaQ0bqB_HdndY7k7dJv8Mag|first TAS] I made in my life. That particular TAS of Amy in Sonic the Hedgehog was inspired by Crramalama. Thus, Crramalama is my predcessor, and it is correct to say that in the world of TAS I am Crramalama v2.0. :)
+
+As you, guys, know, unofficial games are not very welcome on this site unless they introduce something brand new to the gameplay process. Does this one really introduce completely new feel? I beleive, it does. Amy’s abilities differ very much from the abilities of Sonic, Knuckles or Tails. I wouldn’t like to explain her moveset right here, because it’s already explained on [http://info.sonicretro.org/Sonic_3_and_Amy_Rose|Sonic Retro].
+
+Because this project was very important for me as a salvation from depression, I asked a freelance artist to draw an illustration for this submission message. However, since this run was planned to be submitted at the same moment with marzojr’s [http://tasvideos.org/forum/viewtopic.php?t=16145|twin] [http://tasvideos.org/forum/viewtopic.php?t=16146|runs], I have to submit it earlier than the illustration is done; but I’ll add it here later.
+
+!! Game objectives
+
+* Emulator used: Gens 11b + camera hack + solidity viewer + hitbox display + [http://tasvideos.org/forum/viewtopic.php?t=8827|Sonic TAS tools]
+* Aims for in-game time instead of real time
+* Contains speed/entertainment tradeoffs
+* Heavy glitch abuse
+* Slight luck manipulation
+* Takes damage to save time
+* Uses death to save time
+* Ignores delays caused by bonus effects
+* Unofficial game
+
+!! Results
+
+||Level||In-game time||
+|Angel Island 1|0:39.35|
+|Angel Island 2|0:22.41|
+|Hydrocity 1|0:32.38|
+|Hydrocity 2|0:20.11|
+|Marble Garden 1 and 2|0:51.42|
+|Carnival Night 1|0:28.10|
+|Carnival Night 2|0:35.40|
+|Ice Cap 1 and 2|0:45.16|
+|Launch Base 1|0:30.58|
+|Launch Base 2|0:27.44|
+|Mushroom Hill 1|0:31.30|
+|Mushroom Hill 2|0:39.18|
+|Flying Battery 1|0:39.35|
+|Flying Battery 2|1:41.36|
+|Sandopolis 1|1:34.46|
+|Sandopolis 2|0:55.12|
+|Lava Reef 1|0:47.07|
+|Lava Reef 2|0:33.40|
+|Hidden Palace|0:24.37|
+|Sky Sanctuary|1:49.32|
+|Death Egg 1|0:55.27|
+|Death Egg 2||
+
+!! Some words about the character
+
+Amy is a pink hedgehog. Unlike Sonic, she’s a girl. Her abilities differ from the abilities of all the official characters very much. For example, after charging a spin dash, Sonic, Tails and Knuckles are in rolling state; Amy, however, is running. There is also no way to turn into rolling state intentionally (but there are a few places in the game, which force Amy to roll). For more details, see the [http://info.sonicretro.org/Sonic_3_and_Amy_Rose|hack’s page].
+
+!! Amy specific tricks
+
+! Spindash through object
+This trick isn’t really Amy-specific. However, Amy’s ability to stop instantly makes her absolutely perfect for doing this trick — in many cases she can spindash through the obstacles, which no other character can pass through.
+
+! Stair clip
+Also not really Amy-specific; but, as the previous trick, this one is much more often possible for Amy than for any other character (with an exception of Hyper Sonic).
+
+! Spike diving
+Bringing the spikes (or other objects) in a hollow offscreen by looking up, followed by immediate hammer whirl, allows entering the terrain. However, this is often slower than using spindash-through-object (if it’s possible).
+
+! Extra boost
+Yellow springs can give Amy as much boost as red ones, if she touches them with her hammer.
+
+!! Stage by stage comments
+
+! Angel Island 1
+The first level, nothing else to say. This is where everything starts. Most of the level was done by Aglar, the boss fight is mine.
+
+! Angel Island 2
+Perfect positioning allowed me to abuse stair clip glitch and enter the terrain in the same place, where it’s usually done for Knuckles. As a result, the level is finished in just 22 seconds even without horizontal underflow.
+
+! Hydrocity 1
+Using stair clip at frame 7346 to enter the terrain and skip a major portion of the level, then applying another major skip at frame 8263, then finishing the rest normally. The final result is 32 in-game seconds. Someone would ask why not to perform horizontal underflow after entering the terrain. The answer is: if you go for a level-wrap, you’ll be unable to take proper Y position quickly enough, without it you’ll not be able to reach the boss. It’s easy to do with Tails assistance, though.
+
+! Hydrocity 2
+The death before HCZ2 is intentional; it helps to reset level coordinates; without it the level-wrap would be impossible. The level-wrap itself is done by entering the floor at frame 11228 and causing horizontal underflow. The boss fight is frame-perfect. As a result, the time is only 20 in-game seconds.
+
+! Marble Garden 1 and 2
+There are two possible ways to beat this stage: completing each act independantly; and completing the whole zone by beating act 2 boss in act 1. Me and Qwerty decided to beat the whole zone at once. Beating this stage took a LOT of attempts, because we were finding more and more shortcuts. The final version has only my (WST) input, however, Qwerty’s contribution in research of this level is significant.
+
+! Carnival Night 1
+It’s possible to beat this level using a wheel glitch; however, it’s faster to break into Knuckles area and perform horizontal underflow almost immediately. After beating the boss, I use a glitch to enter the floor, which helps starting the next act faster.
+
+! Carnival Night 2
+The act is started faster than supposed due to Amy remaining inside the terrain after act 1. At frame 23148, stair clip is used to enter the terrain again and take another boost. This allowed to glitch through a barrel and enter the terrain again. Then I applied spike diving trick to skip another block of terrain. On frame 23661, I break into Knuckles area using spindash-through-object trick. Finally, stair clip is used at frame 23933 to take another major shortcut. Intense hammer-whirl abuse in the end of the vertical tube allowed to land on ground a few frames earlier than if I used a single hammer-whirl.
+
+After breaking the capsule, I go far left as a speed/entertainment tradeoff (which does not affect the in-game time, as the level is already done). Because I think it’s nice to show to the viewer what’s to the left from the capsule and also to enter the teleporter in a much more funny way — from below :)
+
+! Ice Cap 1 and 2
+Just like Marble Garden, this level can be completed at once. As Amy cannot roll, passing through ice walls is a bit harder than with other characters, and requires spindash-through-object trick. Like usually, I use gravity glitch to beat the whole level. A nice surprise is waiting for you in the end, after the boss.
+
+! Launch Base 1
+The terrain is entered at frame 30601 using stair clip. In fact, it’s possible to enter the terrain much earlier — by simply not leaving it in the very beginning. However, it’s completely useless. The spindash at frame 30611 allows passing under the ring monitor by bringing it offscreen and do something else, which is also important, but I have no idea how to explain it in English. Then I enter the terrain again, this time by using spike diving trick. Horizontal Underflow, boss fight — and the level is done in 30 in-game seconds.
+
+! Launch Base 2
+Spindash through object is used to pass through the only obstacle, then horizontal underflow. There is nothing special to say about the boss fights.
+
+! Mushroom Hill 1
+At first, I did not use horizontal underflow in this level. Later, after marzojr joined the WIP, he insisted on redoing the level and it was redone, giving me a lot of work on resyncing the rest. By the way, there is another way to take a level-wrap in this level — by entering Knuckles cutscene [http://www.youtube.com/watch?v=QypYk3VYeuA&list=UUaQ0bqB_HdndY7k7dJv8Mag#t=2787|from backwards]. This is just for your curiousity.
+
+It is possible to finish the zone 1 in-game second faster by delivering the last hit while the boss is still on screen; however, it’s important to let the boss unlock the screen in order to enter the terrain after the fight.
+
+! Mushroom Hill 2
+Heavy glitch abuse in action, nuff said. Thanks to feeuzz for explaining me how to switch the route after the pump device.
+
+! Flying Battery 1
+Brand new level-wrap found by me after rethinking Tee-N-Tee’s strategy.
+
+! Flying Battery 2
+All these moves is meant to be beautiful. I’d be happy if you enjoyed them like me :)
+
+! Sandopolis 1
+This level was pure pain to beat — I couldn’t find any level-wrap despite much efforts, and had to beat it all completely.
+
+! Sandopolis 2
+Inability to underflow the first act brought Amy’s rage to absurd degree resulting in total pwnage of the level.
+
+Lava Reef 1
+Amy is still mad and keeps taking huge shortcuts and breaking the game. Thanks to marzojr for explaining how not to get damage from the drill bot.
+
+Lava Reef 2
+It’s a pity, but Amy cannot take the same shortcut that all the other characters do — as she can’t roll. So, I had to find some shortcuts. The first one is taken at frame 77554, where I used stair clip to enter the terrain. It can be tricky to avoid getting killed here, but it’s all about Y subpixel management. The second shortcut is taken at frame 77789 — the terrain is entered. The third time it happened at frame 78277 — stair clip was used. Then again, at 78441, I enter the floor using spindash-through-object trick. The last two applications of stair clip happen at frames 78772 and 79023. Wow, that was a lot of travelling inside the walls!
+
+Hidden Palace
+Extra boost trick is used a couple of times. With the excaption of that, the level is beaten in normal way.
+
+Sky Sanctuary
+As marzojr said, he couldn’t find any shortcuts in this level suitable for Amy, thus, the level is beaten in normal way.
+
+Death Egg 1
+
+Death Egg 2
+
+!! Possible improvements
+* It may be possible to not need a spin dash at frame 15909 and keep the horizontal speed enough for the stair clip
+* In Hydrocity 1, it would be a few frames faster to drop-down levels while being slightly offscreen than doing them all in a row
+* Carnival Night 1 boss is really hard to fight with Amy; there may be a way to beat it faster
+* I am not sure if the spin dash before the horizontal underflow is used correctly in Launch Base 1
+* In the same level, Launch Base 1, it could be possible to deliver one more hit (or even two!) to the boss in air and thus save a lot of time. Amy’s HUGE hitbox makes it a big problem
+* In Sandopolis 1, it would be much (at least 3 seconds) faster to take the upper route instead of hammer-whirl at frame 62844, but the moving object there is in a bad position and there is no way to manipulate it other than coming to it a little earlier.
+
+I’m leaving them all for v2.0 of this TAS (of for the next person who will work on it), and not complaining much about them, because I’m happy and proud about the amount of work I already did. It’s not only a TAS, but also a lot of research work.
+
+
+!! Comments from marzojr
+
+!! Other comments
+
+Suggested screenshot: frame 88999
+
+!! Question-answer
+Q: May I please fap at your run?
+A: Yeah, of course! But wait! There is an even better one, [http://tasvideos.org/2662M.html|check it out]. It’s incredibly adorable!
+
+Q: May I please improve your run?
+A: Sure. I know I will never be as good as some other guys and I realize the competitive nature of TASing.
+
+!! Special thanks
+
+* Crramalama for starting this all
+* Aglar for his input in Angel Island 1
+* Qwerty (NaturelLorenzo) for a lot of his input present in early WIPs
+* FlickyF and feeuzz for accompanying
+* DMTM (Mr_Sweed) for help provided in early WIPs
+* LTRP, Joseph and everyone else who enjoyed watching early WIPs
